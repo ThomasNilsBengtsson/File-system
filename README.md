@@ -1,14 +1,14 @@
-File System Simulation Project
+# File System Simulation Project
 
-Introduction
+# Introduction
 
-This project is a laboratory assignment from the Operating Systems course (DV1697/DV1698) at Blekinge Institute of Technology. The objective is to develop a simple file system using C++ that simulates fundamental operations of a real file system, inspired by the FAT (File Allocation Table) system. The implementation follows C++11 standards and runs on Ubuntu Linux.
+This project is a laboratory assignment. The objective is to develop a simple file system using C++ that simulates fundamental operations of a real file system, inspired by the FAT (File Allocation Table) system. The implementation follows C++11 standards and runs on Ubuntu Linux.
 
-Features
+## Features
 
 The file system provides the following functionality:
 
-Basic file operations:
+### Basic file operations:
 
 Format disk
 
@@ -16,7 +16,7 @@ Create, read, and delete files
 
 List directory contents
 
-Advanced file operations:
+### Advanced file operations:
 
 Copy and move files
 
@@ -34,16 +34,16 @@ Access rights management:
 
 Set and modify access permissions (read, write, execute)
 
-Installation
+## Installation
 
 To set up and run the project, follow these steps:
 
-Clone the repository:
+### Clone the repository:
 
-git clone https://github.com/yourrepo/filesystem-lab.git
+git clone https://github.com/ThomasNilsBengtsson/file-system.git
 cd filesystem-lab
 
-Compile the code using the provided Makefile:
+### Compile the code using the provided Makefile:
 
 make all
 
@@ -77,7 +77,7 @@ Permission Management:
 
 chmod <accessrights> <filename> - Changes file access rights
 
-Project Structure
+## Project Structure
 
 The project contains the following key files:
 
@@ -91,7 +91,7 @@ Makefile: Compilation script
 
 test_script1.cpp, test_script2.cpp, ...: Test scripts for different functionalities
 
-Testing
+## Testing
 
 The provided test scripts can be executed using:
 
