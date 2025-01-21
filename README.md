@@ -47,11 +47,11 @@ cd filesystem-lab
 
 make all
 
-Run the file system shell:
+### Run the file system shell:
 
 ./filesystem
 
-Usage
+## Usage
 
 After running the program, the following commands can be used:
 
